@@ -25,7 +25,7 @@ public class LibraryUser implements User {
 		} // end if
 
 		UserBorrowedItems.add(item);
-		item.CheckOut(Main.getCurrentUser());
+		item.CheckOut(this);
 	}// end method
 
 	@Override

@@ -172,9 +172,4 @@ public class Main {
 		System.out.print(prompt);
 		return CheckUserInput(prompt);
 	}// end if
-
-	public static User getCurrentUser() {
-		return user;
-	}// end method
-
 }// end method
